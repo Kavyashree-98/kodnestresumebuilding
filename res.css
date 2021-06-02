@@ -1,0 +1,106 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    line-height: 2.0;
+    font-size: 1rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    border-left: 5px double red;
+   
+    padding-left: 4px;
+    padding-top: 20px;
+}
+.mainsection{
+    background-color: #1953aa;
+    width: 100%;
+    display: flex;
+}
+.listing-order{
+    list-style: none;
+}
+.aboutself{
+    color: white;
+    width: 70%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+.passport{
+    width: 28%;
+}
+
+.img-adjust{
+    width: 50%;
+    height: 85%;
+    min-width: 112px;
+    padding-top: 10%; 
+}
+.separator{
+    padding: 5px;
+}
+.table-part{
+    justify-content: center;
+    display: flex;
+}
+
+
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr th{
+    padding: 0 10px 0 10px;
+}
+tr td{
+    text-align: center;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lang{
+    display: flex;
+}
+
+.lang div:first-child{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.lang div:last-child{
+    width: 60%;
+}
+
+.progressbar{
+    width: 95%;
+}
+
+.personal-details{
+    width: 70%;
+    margin: auto;
+}
+
+.detail{
+    display: flex;
+}
+.detail div:first-child{
+    width: 40%;
+}
+.detail div:last-child{
+    width: 60%;
+  
+}
+.header{
+    background-color:lightcyan ;
+}
